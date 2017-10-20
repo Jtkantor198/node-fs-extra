@@ -35,7 +35,7 @@ Usage
 You don't ever need to include the original `fs` module again:
 
 ```js
-const fs = require('fs') // this is no longer necessary
+const fs = require('graceful-fs') // this is no longer necessary
 ```
 
 you can now do this:
@@ -54,7 +54,7 @@ const fse = require('fs-extra')
 you can also keep both, but it's redundant:
 
 ```js
-const fs = require('fs')
+const fs = require('graceful-fs')
 const fse = require('fs-extra')
 ```
 
